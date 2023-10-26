@@ -1,0 +1,204 @@
+font {
+    font-family: curs;
+    color: white;
+}
+
+#menu {
+    margin-top: 1.5%;
+}
+
+.menustuff {
+    color: white;
+    padding: 14px 90px;
+    border-right: 1px solid white;
+
+}
+
+#drugs {
+    color: white
+}
+
+body {
+    background-image: url(musicartsbg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#music {
+    color: black;
+    margin-top: -100px;
+    margin-right: 700px;
+    font-size: 100px;
+}
+
+#arts {
+    color: black;
+    margin-top: -178px;
+    margin-right: -700px;
+    font-size: 100px;
+}
+
+#artspng {
+    margin-left: 500px;
+    margin-bottom: -400px;
+    width: 300px;
+    height: 400px;
+}
+
+#musicdesc {
+    color: black;
+    max-width: 500px;
+    margin-top: -100px;
+    margin-left: 140px;
+}
+
+#artsdesc {
+    color: black;
+    max-width: 500px;
+    margin-left: 840px;
+    margin-top: -125px;
+}
+
+#line {
+    border: 3px solid black;
+    transform: rotateZ(90deg)
+}
+
+#aTITLE {
+    margin-top: 1.5%;
+}
+
+#bTitle {
+    font-size: 200px;
+}
+
+#musicvid {
+    margin-top: -50px;
+    margin-right: 680px;
+}
+
+.menustuff:hover {
+    animation-name: myHover;
+    animation-duration: 1s;
+}
+
+a {
+    text-decoration: none;
+}
+
+#content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+#informationalvideo {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-10%);
+    text-align: center;
+}
+
+#aButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#bButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#aButton:hover{
+    animation-name: myHubert;
+    animation-duration: 1s;
+}
+
+#bButton:hover{
+    animation-name: myHubert;
+    animation-duration: 1s;
+}
+
+
+
+@keyframes myHover {
+    from {
+        color: white;
+    
+    }
+
+    to {
+        color: red;
+    }
+}
+
+@keyframes myHubert {
+    from {background: none;}
+
+    to {
+        background-color: white;
+        color: black;
+    }
+}
+
+#goals {
+    list-style-type: circle;
+}
+
+@keyframes myHubert2 {
+    from {
+        color: white;
+        transform: translateX(0px);}
+
+    to {
+        color: white;
+        transform: translateX(20px);}
+}
+
+#lists1, #lists2, #lists3, #lists4 {
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+}
+
+#lists1:hover {
+    animation-name: myHubert2;
+    animation-duration: 1s;
+}
+
+#lists2:hover {
+    animation-name: myHubert2;
+    animation-duration: 1s;
+}
+
+#lists3:hover {
+    animation-name: myHubert2;
+    animation-duration: 1s;
+}
+
+#lists4:hover {
+    animation-name: myHubert2;
+    animation-duration: 1s;
+}
+
